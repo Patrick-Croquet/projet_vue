@@ -3,12 +3,13 @@ Installation
 npm install -g @vue/cli
 vue --version
 Vue CLI v4.5.15
-vue create projet5-vue
+vue create projet3-vue
 installation manuelle
 ? Please pick a preset: Default (Vue 3) ([Vue 3] babel, eslint)
- $ cd projet5-vue
+ $ cd projet3-vue
  $ npm run serve
 
+npm install bootstrap
 vue add quasar
 
 Sass with SCSS syntax 

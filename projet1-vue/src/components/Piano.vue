@@ -14,10 +14,10 @@ import { ref } from 'vue'
       </thead>
 
       <tbody id="app">
-        <tr v-for="entrepot in entrepots">
-          <td>{{ entrepot.Marque }}</td>
-          <td>{{ entrepot.Couleur }}</td>
-          <td>{{ entrepot.Stock }}</td>
+        <tr v-for="piano in pianos">
+          <td>{{ piano.Marque }}</td>
+          <td>{{ piano.Couleur }}</td>
+          <td>{{ piano.Stock }}</td>
         </tr>
       </tbody>
 
@@ -36,7 +36,7 @@ import { ref } from 'vue'
 export default{
   data () {
     return {
-      entrepots:
+      pianos:
       [ 
         { 
         "id":1,

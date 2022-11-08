@@ -41,9 +41,11 @@ import router from './router';
 
 createApp(App).use(router).mount('#app');
 
-
-
 npm install tw-elements
+
+modifier le fichier tailwind.config.js et le fichier css/style.css
+
+npm install axios
 
 ## Project setup
 ```
