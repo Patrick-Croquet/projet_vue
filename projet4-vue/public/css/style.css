@@ -16,11 +16,11 @@ body {
 }
 
 .btn-outline-primary {
-  color: #3b95ee !important;
+  color: #d21212 !important;
 }
 
 .btn-outline-primary:hover {
-  background-color: #3b95ee !important;
+  background-color: #d21212 !important;
   color: white !important;
 }
 
@@ -36,26 +36,25 @@ body {
 footer {
   margin: 5px;
   /*background-color: $blue;
-    color: white*/
+  color: white*/
 }
+
+/*# sourceMappingURL=style.css.map */
 /* RESPONSIVE CSS
-      -------------------------------------------------- */
+    -------------------------------------------------- */
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
 }
-
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
   .featurette-heading {
     font-size: 50px;
   }
 }
-
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
